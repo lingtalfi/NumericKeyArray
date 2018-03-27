@@ -44,6 +44,15 @@ class NumericKeyArray implements NumericKeyArrayInterface
         return $this->arr;
     }
 
+    public function getItem(string $id)
+    {
+        if (false !== ($index = $this->getEntryIndex($id))) {
+            return $this->arr[$index];
+        }
+        return false;
+    }
+
+
     public function remove(string $id)
     {
         if (false !== ($index = $this->getEntryIndex($id))) {

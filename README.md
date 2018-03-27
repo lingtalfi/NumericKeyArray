@@ -294,6 +294,27 @@ array(7) {
 
 
 
+<?php
+
+
+az($util->getItem('id4'));
+
+?>
+
+<pre>
+array(3) {
+  [0] => string(3) "id4"
+  [1] => string(4) "Âge"
+  [2] => string(2) "59"
+}
+</pre>
+
+
+
+
+
+
+
 
 ```
 
@@ -303,6 +324,10 @@ array(7) {
 History Log
 ------------------
         
+- 1.1.0 -- 2018-03-27
+
+    - add NumericKeyArrayInterface.getItem method
+    
 - 1.0.0 -- 2018-03-27
 
     - initial commit

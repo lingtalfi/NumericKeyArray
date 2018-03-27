@@ -41,6 +41,14 @@ interface NumericKeyArrayInterface
      */
     public function getArray(): array;
 
+
+    /**
+     * @param string $id
+     * @return array|false, the item identified by id, or false if not found
+     */
+    public function getItem(string $id);
+
+
     /**
      * @param string $id
      * @return bool, whether or not the item has been removed.
