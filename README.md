@@ -14,7 +14,7 @@ Install
 ==========
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
-uni import NumericKeyArray
+uni import Ling/NumericKeyArray
 ```
 
 Or just download it and place it where you want otherwise.
@@ -29,7 +29,7 @@ How to?
 
 
 use Core\Services\A;
-use NumericKeyArray\NumericKeyArray;
+use Ling\NumericKeyArray\NumericKeyArray;
 
 // using kamille framework here (https://github.com/lingtalfi/kamille)
 require_once __DIR__ . "/../boot.php";

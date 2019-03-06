@@ -1,7 +1,7 @@
 <?php
 
 
-namespace NumericKeyArray;
+namespace Ling\NumericKeyArray;
 
 
 class NumericKeyArray implements NumericKeyArrayInterface
