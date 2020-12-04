@@ -323,7 +323,11 @@ array(3) {
 
 History Log
 ------------------
-        
+
+- 1.1.1 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.1.0 -- 2018-03-27
 
     - add NumericKeyArrayInterface.getItem method
